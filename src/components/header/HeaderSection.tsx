@@ -77,9 +77,9 @@ const HeaderSection = ({ innerHeader }: Props) => {
         <div className="row align-items-center">
           <div className="col-lg-3 col-5 col-xxs-6">
             <div className="rv-1-logo">
-              <Link href="/">
+              <Link href="/estudiosapp/">
                 <img
-                  src="/assets/img/logo-main.png"
+                  src="/estudiosapp/assets/img/logo-main.png"
                   alt="logo"
                   className="rv-1-logo"
                 />
@@ -95,8 +95,8 @@ const HeaderSection = ({ innerHeader }: Props) => {
               ref={sidebarRef}
             >
               <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
-                <Link href="/" className="logo-container">
-                  <img src="/assets/img/logo-1.png" alt="logo" />
+                <Link href="/estudiosapp/" className="logo-container">
+                  <img src="/estudiosapp/assets/img/logo-1.png" alt="logo" />
                 </Link>
                 <button
                   className="rv-3-def-btn rv-1-header-mobile-menu-btn sidebar-close-btn"
@@ -120,7 +120,7 @@ const HeaderSection = ({ innerHeader }: Props) => {
             {innerHeader ? (
               <div className="d-flex justify-content-end">
                 <div className="rv-inner-header-right-btns">
-                  <Link href="/login">
+                  <Link href="/estudiosapp/login">
                     <i className="fa-regular fa-user"></i>Login
                   </Link>
                   <a href="#" className="d-sm-inline-block d-none">
@@ -140,7 +140,7 @@ const HeaderSection = ({ innerHeader }: Props) => {
                 <Link href="#" className="rv-1-def-btn rv-1-header__btn">
                   <span className="txt">Get Tickets</span>
                   <span className="icon">
-                    <img src="/assets/img/rv-1-icon-1.png" alt="icon" />
+                    <img src="/estudiosapp/assets/img/rv-1-icon-1.png" alt="icon" />
                   </span>
                 </Link>
 

@@ -17,7 +17,7 @@ const ServiceSection5 = () => {
         <div className="row rv-6-services__row g-0">
           <div className="col-lg-3">
             <div className="rv-6-services__img">
-              <img src="assets/img/rv-6-services-img.jpg" alt="Image" />
+              <img src="/estudiosapp/assets/img/rv-6-services-img.jpg" alt="Image" />
             </div>
           </div>
 
@@ -28,7 +28,7 @@ const ServiceSection5 = () => {
                 <div className="rv-6-service">
                   <div className="rv-6-service__icon">
                     <img
-                      src="assets/img/rv-6-service-1.png"
+                      src="/estudiosapp/assets/img/rv-6-service-1.png"
                       alt="Service icon"
                     />
                   </div>
@@ -53,7 +53,7 @@ const ServiceSection5 = () => {
                 <div className="rv-6-service">
                   <div className="rv-6-service__icon">
                     <img
-                      src="assets/img/rv-6-service-2.png"
+                      src="/estudiosapp/assets/img/rv-6-service-2.png"
                       alt="Service icon"
                     />
                   </div>
@@ -78,7 +78,7 @@ const ServiceSection5 = () => {
                 <div className="rv-6-service">
                   <div className="rv-6-service__icon">
                     <img
-                      src="assets/img/rv-6-service-3.png"
+                      src="/estudiosapp/assets/img/rv-6-service-3.png"
                       alt="Service icon"
                     />
                   </div>
@@ -103,7 +103,7 @@ const ServiceSection5 = () => {
                 <div className="rv-6-service">
                   <div className="rv-6-service__icon">
                     <img
-                      src="assets/img/rv-6-service-4.png"
+                      src="/estudiosapp/assets/img/rv-6-service-4.png"
                       alt="Service icon"
                     />
                   </div>
@@ -128,7 +128,7 @@ const ServiceSection5 = () => {
                 <div className="rv-6-service">
                   <div className="rv-6-service__icon">
                     <img
-                      src="assets/img/rv-6-service-5.png"
+                      src="/estudiosapp/assets/img/rv-6-service-5.png"
                       alt="Service icon"
                     />
                   </div>

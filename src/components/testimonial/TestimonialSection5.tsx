@@ -29,12 +29,12 @@ const TestimonialSection5 = () => {
           >
             <SwiperSlide className="rv-6-testimonial__img-slide rv-14-testimonial__img-slide">
               <img
-                src="assets/img/rv-14-reviewer-img.jpg"
+                src="/estudiosapp/assets/img/rv-14-reviewer-img.jpg"
                 alt="Reviewer Image"
               />
             </SwiperSlide>
             <SwiperSlide className="rv-6-testimonial__img-slide rv-14-testimonial__img-slide">
-              <img src="assets/img/rv-6-reviewer-2.jpg" alt="Reviewer Image" />
+              <img src="/estudiosapp/assets/img/rv-6-reviewer-2.jpg" alt="Reviewer Image" />
             </SwiperSlide>
           </Swiper>
 
@@ -144,13 +144,13 @@ const TestimonialSection5 = () => {
               >
                 <button className="prev">
                   <img
-                    src="assets/img/rv-14-slider-icon-1.png"
+                    src="/estudiosapp/assets/img/rv-14-slider-icon-1.png"
                     alt="nav icon"
                   />
                 </button>
                 <button className="next">
                   <img
-                    src="assets/img/rv-14-slider-icon-2.png"
+                    src="/estudiosapp/assets/img/rv-14-slider-icon-2.png"
                     alt="nav icon"
                   />
                 </button>

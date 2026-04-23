@@ -30,10 +30,10 @@ const BlogDetailDesc = () => {
       <div className="rv-blog-details__inner-img">
         <div className="row g-4">
           <div className="col-sm-6">
-            <ImgAnimateLeftToRight src="/assets/img/rv-4-blog-10.jpg" alt="" />
+            <ImgAnimateLeftToRight src="/estudiosapp/assets/img/rv-4-blog-10.jpg" alt="" />
           </div>
           <div className="col-sm-6">
-            <ImgAnimateLeftToRight src="/assets/img/rv-4-blog-3.jpg" alt="" />
+            <ImgAnimateLeftToRight src="/estudiosapp/assets/img/rv-4-blog-3.jpg" alt="" />
           </div>
         </div>
       </div>

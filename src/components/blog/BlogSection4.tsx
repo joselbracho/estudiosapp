@@ -67,12 +67,12 @@ const BlogSection4 = () => {
                 <div className="rv-6-blog__txt">
                   <ul className="rv-1-blog__infos">
                     <li>
-                      <img src="assets/calender-icon.svg" alt="calender icon" />
+                      <img src="/estudiosapp/assets/calender-icon.svg" alt="calender icon" />
 
                       {item.date}
                     </li>
                     <li>
-                      <img src="assets/img/rv-1-icon-5.png" alt="icon" />{" "}
+                      <img src="/estudiosapp/assets/img/rv-1-icon-5.png" alt="icon" />{" "}
                       {item.comments}
                       Comments
                     </li>

@@ -64,7 +64,7 @@ const BannerSection7 = () => {
               </div>
               <div className="col-lg-5">
                 <div className="rv-6-banner__img">
-                  <img src="assets/img/rv-6-banner-1.png" alt="Banner Vector" />
+                  <img src="/estudiosapp/assets/img/rv-6-banner-1.png" alt="Banner Vector" />
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const BannerSection7 = () => {
               </div>
               <div className="col-lg-5">
                 <div className="rv-6-banner__img">
-                  <img src="assets/img/rv-6-banner-2.png" alt="Banner Vector" />
+                  <img src="/estudiosapp/assets/img/rv-6-banner-2.png" alt="Banner Vector" />
                 </div>
               </div>
             </div>

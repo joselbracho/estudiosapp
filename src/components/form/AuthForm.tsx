@@ -67,7 +67,7 @@ const AuthForm = ({ login }: Props) => {
           </a>
         ) : (
           <div className="alternative-auth">
-            <Link className="direct-to-login" href="/login">
+            <Link className="direct-to-login" href="/estudiosapp/login">
               Click to Login
             </Link>
           </div>

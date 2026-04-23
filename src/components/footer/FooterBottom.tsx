@@ -16,7 +16,7 @@ const FooterBottom = () => {
           className="col-md-4 text-center text-md-end"
           position={-60}
         >
-          <img src="assets/img/payment_method.png" alt="Payment Method image" />
+          <img src="/estudiosapp/assets/img/payment_method.png" alt="Payment Method image" />
         </DivAnimateYAxis>
       </div>
     </div>

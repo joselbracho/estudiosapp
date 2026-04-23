@@ -29,13 +29,13 @@ const TestimonialSection4 = () => {
             >
               <SwiperSlide className=" rv-6-testimonial__img-slide">
                 <img
-                  src="assets/img/rv-6-reviewer-1.jpg"
+                  src="/estudiosapp/assets/img/rv-6-reviewer-1.jpg"
                   alt="Reviewer Image"
                 />
               </SwiperSlide>
               <SwiperSlide className=" rv-6-testimonial__img-slide">
                 <img
-                  src="assets/img/rv-6-reviewer-2.jpg"
+                  src="/estudiosapp/assets/img/rv-6-reviewer-2.jpg"
                   alt="Reviewer Image"
                 />
               </SwiperSlide>
@@ -127,10 +127,10 @@ const TestimonialSection4 = () => {
             <div className="rv-6-testimonial-slider-controls">
               <div className="rv-6-testimonial-slider-nav">
                 <button className="prev">
-                  <img src="assets/img/rv-6-slider-icon-1.png" alt="nav icon" />
+                  <img src="/estudiosapp/assets/img/rv-6-slider-icon-1.png" alt="nav icon" />
                 </button>
                 <button className="next">
-                  <img src="assets/img/rv-6-slider-icon-2.png" alt="nav icon" />
+                  <img src="/estudiosapp/assets/img/rv-6-slider-icon-2.png" alt="nav icon" />
                 </button>
               </div>
 
@@ -144,10 +144,10 @@ const TestimonialSection4 = () => {
       </DivAnimateYAxis>
 
       <div className="rv-6-testimonial__right-img">
-        <img src="assets/img/rv-6-right-img-1.png" alt="Image" />
-        <img src="assets/img/rv-6-right-img-2.png" alt="Image" />
-        <img src="assets/img/rv-6-right-img-3.png" alt="Image" />
-        <img src="assets/img/rv-6-right-img-4.png" alt="Image" />
+        <img src="/estudiosapp/assets/img/rv-6-right-img-1.png" alt="Image" />
+        <img src="/estudiosapp/assets/img/rv-6-right-img-2.png" alt="Image" />
+        <img src="/estudiosapp/assets/img/rv-6-right-img-3.png" alt="Image" />
+        <img src="/estudiosapp/assets/img/rv-6-right-img-4.png" alt="Image" />
       </div>
     </section>
   );

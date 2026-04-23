@@ -10,7 +10,7 @@ const GallerySection3 = () => {
             <a href="#">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <img src="assets/img/rv-12-gallery-1.jpg" alt="Gallery-1" />
+            <img src="/estudiosapp/assets/img/rv-12-gallery-1.jpg" alt="Gallery-1" />
           </div>
         </div>
         <div className="col">
@@ -18,7 +18,7 @@ const GallerySection3 = () => {
             <a href="#">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <img src="assets/img/rv-12-gallery-2.jpg" alt="Gallery-1" />
+            <img src="/estudiosapp/assets/img/rv-12-gallery-2.jpg" alt="Gallery-1" />
           </div>
         </div>
         <div className="col">
@@ -26,7 +26,7 @@ const GallerySection3 = () => {
             <a href="#">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <img src="assets/img/rv-12-gallery-3.jpg" alt="Gallery-1" />
+            <img src="/estudiosapp/assets/img/rv-12-gallery-3.jpg" alt="Gallery-1" />
           </div>
         </div>
         <div className="col">
@@ -34,7 +34,7 @@ const GallerySection3 = () => {
             <a href="#">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <img src="assets/img/rv-12-gallery-4.jpg" alt="Gallery-1" />
+            <img src="/estudiosapp/assets/img/rv-12-gallery-4.jpg" alt="Gallery-1" />
           </div>
         </div>
         <div className="col">
@@ -42,7 +42,7 @@ const GallerySection3 = () => {
             <a href="#">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <img src="assets/img/rv-12-gallery-5.jpg" alt="Gallery-1" />
+            <img src="/estudiosapp/assets/img/rv-12-gallery-5.jpg" alt="Gallery-1" />
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ const PricingSection = () => {
                   <a href="#" className="rv-1-def-btn rv-1-pricing-pack__btn">
                     <span className="txt">Buy Ticket</span>
                     <span className="icon">
-                      <img src="assets/img/rv-1-icon-1.png" alt="icon" />
+                      <img src="/estudiosapp/assets/img/rv-1-icon-1.png" alt="icon" />
                     </span>
                   </a>
                 </div>

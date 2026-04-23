@@ -29,7 +29,7 @@ const BannerSection = () => {
                 <a href="#" className="rv-1-def-btn rv-1-def-btn-2">
                   <span className="txt">Register Now!</span>
                   <span className="icon">
-                    <img src="assets/img/rv-1-icon-2.png" alt="icon" />
+                    <img src="/estudiosapp/assets/img/rv-1-icon-2.png" alt="icon" />
                   </span>
                 </a>
 
@@ -54,27 +54,27 @@ const BannerSection = () => {
 
               <div className="rv-1-banner__vectors">
                 <img
-                  src="assets/img/rv-1-vector-1.png"
+                  src="/estudiosapp/assets/img/rv-1-vector-1.png"
                   alt="vector"
                   className="rv-1-banner__vector rv-1-banner__vector-1"
                 />
                 <img
-                  src="assets/img/rv-1-vector-2.png"
+                  src="/estudiosapp/assets/img/rv-1-vector-2.png"
                   alt="vector"
                   className="rv-1-banner__vector rv-1-banner__vector-2"
                 />
                 <img
-                  src="assets/img/rv-1-vector-3.png"
+                  src="/estudiosapp/assets/img/rv-1-vector-3.png"
                   alt="vector"
                   className="rv-1-banner__vector rv-1-banner__vector-3"
                 />
                 <img
-                  src="assets/img/rv-1-vector-4.png"
+                  src="/estudiosapp/assets/img/rv-1-vector-4.png"
                   alt="vector"
                   className="rv-1-banner__vector rv-1-banner__vector-4"
                 />
                 <img
-                  src="assets/img/rv-1-vector-5.png"
+                  src="/estudiosapp/assets/img/rv-1-vector-5.png"
                   alt="vector"
                   className="rv-1-banner__vector rv-1-banner__vector-5"
                 />
@@ -85,7 +85,7 @@ const BannerSection = () => {
             <div className="rv-1-banner__img text-end">
               <div className="reveal">
                 <motion.img
-                  src="assets/img/rv-1-banner-img.jpg"
+                  src="/estudiosapp/assets/img/rv-1-banner-img.jpg"
                   alt="Banner image"
                   initial={{
                     opacity: 0,

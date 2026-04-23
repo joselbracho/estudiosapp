@@ -35,7 +35,7 @@ const BlogSection3 = () => {
                         {item.category}
                       </li>
                       <li className="rv-3-blog__info">
-                        <img src="assets/img/rv-1-icon-4.png" alt="icon" />
+                        <img src="/estudiosapp/assets/img/rv-1-icon-4.png" alt="icon" />
                         {item.date}
                       </li>
                     </ul>

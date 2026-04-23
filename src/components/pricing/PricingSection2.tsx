@@ -49,7 +49,7 @@ const PricingSection2 = () => {
                   <li>
                     <span className="rv-20-single_pricing_bg">
                       {" "}
-                      <img src="assets/img/price/home-6-1.png" alt="image" />
+                      <img src="/estudiosapp/assets/img/price/home-6-1.png" alt="image" />
                     </span>
                   </li>
                 </ul>

@@ -40,8 +40,8 @@ const StatSection = () => {
       </div>
 
       <div className="rv-14-stats__vectors">
-        <img src="assets/img/rv-14-stats-vector-1.png" alt="vector" />
-        <img src="assets/img/rv-14-stats-vector-2.png" alt="vector" />
+        <img src="/estudiosapp/assets/img/rv-14-stats-vector-1.png" alt="vector" />
+        <img src="/estudiosapp/assets/img/rv-14-stats-vector-2.png" alt="vector" />
       </div>
     </SectionAnimateYAxis>
   );
