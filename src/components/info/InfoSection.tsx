@@ -40,7 +40,7 @@ const InfoSection = () => {
           <div className="col-xl-4 col-lg-5 col-6 col-xxs-12">
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-1.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-1.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -56,7 +56,7 @@ const InfoSection = () => {
 
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-2.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-2.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -72,7 +72,7 @@ const InfoSection = () => {
 
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-3.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-3.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -89,14 +89,14 @@ const InfoSection = () => {
 
           <div className="col-xl-4 d-none d-xl-block">
             <div className="rv-9-guides__img text-center">
-              <img src="/estudiosapp/assets/img/rv-12-info-img.png" alt="" />
+              <img src="/assets/img/rv-12-info-img.png" alt="" />
             </div>
           </div>
 
           <div className="col-xl-4 col-lg-5 col-6 col-xxs-12">
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-4.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-4.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -112,7 +112,7 @@ const InfoSection = () => {
 
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-5.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-5.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -128,7 +128,7 @@ const InfoSection = () => {
 
             <div className="rv-8-service rv-9-guide rv-12-info">
               <div className="rv-9-service__icon">
-                <img src="/estudiosapp/assets/img/rv-12-info-6.png" alt="Icon" />
+                <img src="/assets/img/rv-12-info-6.png" alt="Icon" />
               </div>
 
               <div className="rv-9-guide__txt">
@@ -147,12 +147,12 @@ const InfoSection = () => {
 
       <div className="rv-12-infos__vectors" id="rv-12-infos-vectors">
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />
@@ -162,12 +162,12 @@ const InfoSection = () => {
         id="rv-12-infos-vectors-2"
       >
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />

@@ -9,9 +9,9 @@ const FooterSection6 = () => {
           <div className="row gy-5 justify-content-xl-between justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="rv-1-footer__about">
-                <Link href="/estudiosapp/">
+                <Link href="/">
                   <img
-                    src="/estudiosapp/assets/img/rv-12-logo-light.png"
+                    src="/assets/img/rv-12-logo-light.png"
                     alt="Logo"
                     className="logo"
                   />
@@ -44,10 +44,10 @@ const FooterSection6 = () => {
                     <h5 className="rv-1-footer-widget__title">Support</h5>
                     <ul className="rv-1-footer-widget__links">
                       <li>
-                        <Link href="/estudiosapp/about">About Us</Link>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link href="/estudiosapp/contact">Contact Us</Link>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
                         <Link href="#">Terms of Services</Link>
@@ -81,15 +81,15 @@ const FooterSection6 = () => {
                     <h5 className="rv-1-footer-widget__title">Contact Us</h5>
                     <ul className="rv-1-footer-widget__infos">
                       <li>
-                        <img src="/estudiosapp/assets/img/rv-1-icon-6.png" alt="icon" /> 24th
+                        <img src="/assets/img/rv-1-icon-6.png" alt="icon" /> 24th
                         St, New York, NY
                       </li>
                       <li>
-                        <img src="/estudiosapp/assets/img/rv-1-icon-7.png" alt="icon" />{" "}
+                        <img src="/assets/img/rv-1-icon-7.png" alt="icon" />{" "}
                         <a href="tel:+12365858988">+123 658 589 88</a>
                       </li>
                       <li>
-                        <img src="/estudiosapp/assets/img/rv-1-icon-8.png" alt="icon" />{" "}
+                        <img src="/assets/img/rv-1-icon-8.png" alt="icon" />{" "}
                         <a href="mailto:info@gmail.com">info@gmail.com</a>
                       </li>
                     </ul>
@@ -130,7 +130,7 @@ const FooterSection6 = () => {
 
             <div className="col-md-4 text-center text-md-end">
               <img
-                src="/estudiosapp/assets/img/payment_method.png"
+                src="/assets/img/payment_method.png"
                 alt="Payment Method image"
               />
             </div>
@@ -140,14 +140,14 @@ const FooterSection6 = () => {
 
       <div className="rv-12-infos__vectors">
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />
       </div>
       <div className="rv-12-infos__vectors rv-12-infos__vectors--2">
         <img
-          src="/estudiosapp/assets/img/rv-12-infos-vector.png"
+          src="/assets/img/rv-12-infos-vector.png"
           alt="vector"
           className="rv-12-infos-vector"
         />

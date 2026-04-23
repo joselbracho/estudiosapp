@@ -32,12 +32,12 @@ const NavSection = ({ style, logo }: Props) => {
     <div className={style}>
       <ul className="justify-content-center">
         <li>
-          <Navlink href="/estudiosapp/">Home</Navlink>
+          <Navlink href="/">Home</Navlink>
 
         </li>
 
         <li>
-          <Navlink href="/estudiosapp/about">About</Navlink>
+          <Navlink href="/about">About</Navlink>
         </li>
 
         <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
@@ -50,27 +50,27 @@ const NavSection = ({ style, logo }: Props) => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/estudiosapp/projects">Projects</Navlink>
+              <Navlink href="/projects">Projects</Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/projects/ecological-harmony-project">
+              <Navlink href="/projects/ecological-harmony-project">
                 Project Details
               </Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/team">Team Members</Navlink>
+              <Navlink href="/team">Team Members</Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/login">Login</Navlink>
+              <Navlink href="/login">Login</Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/register">Register</Navlink>
+              <Navlink href="/register">Register</Navlink>
             </li>
           </ul>
         </li>
         {logo && (
           <li className="d-none d-lg-block">
-            <Navlink href="/estudiosapp/" className="rv-5-logo">
+            <Navlink href="/" className="rv-5-logo">
               <img src={logo} alt="logo" />
             </Navlink>
           </li>
@@ -85,10 +85,10 @@ const NavSection = ({ style, logo }: Props) => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/estudiosapp/services">Services</Navlink>
+              <Navlink href="/services">Services</Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/services/digital-marketing">
+              <Navlink href="/services/digital-marketing">
                 Service Details
               </Navlink>
             </li>
@@ -105,10 +105,10 @@ const NavSection = ({ style, logo }: Props) => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Navlink href="/estudiosapp/blog">Blog</Navlink>
+              <Navlink href="/blog">Blog</Navlink>
             </li>
             <li>
-              <Navlink href="/estudiosapp/blog/entrepreneur-productivity">
+              <Navlink href="/blog/entrepreneur-productivity">
                 Blog Details
               </Navlink>
             </li>
@@ -116,7 +116,7 @@ const NavSection = ({ style, logo }: Props) => {
         </li>
 
         <li>
-          <Navlink href="/estudiosapp/contact">Contact</Navlink>
+          <Navlink href="/contact">Contact</Navlink>
         </li>
       </ul>
     </div>

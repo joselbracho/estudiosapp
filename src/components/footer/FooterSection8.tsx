@@ -9,9 +9,9 @@ const FooterSection8 = () => {
           <div className="row gy-4 gy-sm-5 rv-6-footer-top__row">
             <div className="col-xl-3 col-md-8">
               <div className="rv-1-footer__about">
-                <Link href="/estudiosapp/">
+                <Link href="/">
                   <img
-                    src="/estudiosapp/assets/img/logo-main-white.png"
+                    src="/assets/img/logo-main-white.png"
                     alt="Logo"
                     className="logo"
                   />

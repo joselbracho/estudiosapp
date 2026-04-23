@@ -9,7 +9,7 @@ const BlogDetailCommentArea = () => {
       <div className="rv-single-comment-area">
         <div className="rv-comment">
           <div className="rv-comment-commenter__img">
-            <img src="/estudiosapp/assets/img/rv-3-member-2.jpg" alt="commenter image" />
+            <img src="/assets/img/rv-3-member-2.jpg" alt="commenter image" />
           </div>
 
           <div className="rv-comment__txt">
@@ -35,7 +35,7 @@ const BlogDetailCommentArea = () => {
 
         <div className="rv-comment-reply">
           <div className="rv-comment-commenter__img">
-            <img src="/estudiosapp/assets/img/rv-5-member-1.jpg" alt="commenter image" />
+            <img src="/assets/img/rv-5-member-1.jpg" alt="commenter image" />
           </div>
 
           <div className="rv-comment__txt">

@@ -70,8 +70,8 @@ const HeaderSection6 = () => {
         <div className="row align-items-center">
           <div className="col-xl-2 col-lg-3 col-6">
             <div className="rv-6-header__logo">
-              <Link href="/estudiosapp/">
-                <img src="/estudiosapp/assets/img/rv-6-logo.png" alt="Logo" />
+              <Link href="/">
+                <img src="/assets/img/rv-6-logo.png" alt="Logo" />
               </Link>
             </div>
           </div>
@@ -84,8 +84,8 @@ const HeaderSection6 = () => {
               ref={sidebarRef}
             >
               <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
-                <Link href="/estudiosapp/" className="logo-container">
-                  <img src="/estudiosapp/assets/img/rv-6-logo.png" alt="logo" />
+                <Link href="/" className="logo-container">
+                  <img src="/assets/img/rv-6-logo.png" alt="logo" />
                 </Link>
                 <button
                   className="rv-3-def-btn rv-1-header-mobile-menu-btn sidebar-close-btn"

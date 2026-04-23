@@ -11,9 +11,9 @@ const FooterSection = () => {
           <div className="row gy-4 justify-content-center">
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="rv-1-footer__about">
-                <Link href="/estudiosapp/">
+                <Link href="/">
                   <img
-                    src="/estudiosapp/assets/img/logo-main-white.png"
+                    src="/assets/img/logo-main-white.png"
                     alt="Logo"
                     className="logo"
                   />
@@ -76,15 +76,15 @@ const FooterSection = () => {
                 <h5 className="rv-1-footer-widget__title">Contact Us</h5>
                 <ul className="rv-1-footer-widget__infos">
                   <li>
-                    <img src="/estudiosapp/assets/img/rv-1-icon-6.png" alt="icon" /> 24th St,
+                    <img src="/assets/img/rv-1-icon-6.png" alt="icon" /> 24th St,
                     New York, NY
                   </li>
                   <li>
-                    <img src="/estudiosapp/assets/img/rv-1-icon-7.png" alt="icon" />{" "}
+                    <img src="/assets/img/rv-1-icon-7.png" alt="icon" />{" "}
                     <a href="tel:+12365858988">+123 658 589 88</a>
                   </li>
                   <li>
-                    <img src="/estudiosapp/assets/img/rv-1-icon-8.png" alt="icon" />{" "}
+                    <img src="/assets/img/rv-1-icon-8.png" alt="icon" />{" "}
                     <a href="mailto:info@gmail.com">info@gmail.com</a>
                   </li>
                 </ul>

@@ -19,7 +19,7 @@ const FooterSection5 = ({
           <div className="row gy-3 justify-content-between align-items-center">
             <div className="col-lg-3">
               <div className="rv-9-footer-logo text-sm-center text-lg-start">
-                <Link href="/estudiosapp/">
+                <Link href="/">
                   <img src={logo} alt="logo" className="logo" />
                 </Link>
               </div>
@@ -137,7 +137,7 @@ const FooterSection5 = ({
                 <h5 className="rv-1-footer-widget__title">Recent Posts</h5>
                 <div className="rv-8-footer-article rv-20-footer-article">
                   <img
-                    src="/estudiosapp/assets/img/rv-9-footer-article-1.jpg"
+                    src="/assets/img/rv-9-footer-article-1.jpg"
                     alt="Article image"
                     className="rv-8-footer-article-img"
                   />
@@ -154,7 +154,7 @@ const FooterSection5 = ({
 
                 <div className="rv-8-footer-article rv-20-footer-article">
                   <img
-                    src="/estudiosapp/assets/img/rv-9-footer-article-2.jpg"
+                    src="/assets/img/rv-9-footer-article-2.jpg"
                     alt="Article image"
                     className="rv-8-footer-article-img"
                   />

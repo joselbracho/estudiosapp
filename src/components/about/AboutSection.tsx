@@ -10,7 +10,7 @@ const AboutSection = ({ btnStyle }: Props) => {
         <div className="row rv-1-about-row g-0 justify-content-between align-items-end">
           <DivAnimateXAxis className="col-xl-5 col-lg-6" position={-80}>
             <div className="rv-1-about__img reveal">
-              <img src="/estudiosapp/assets/img/about-img-1.jpg" alt="Image" />
+              <img src="/assets/img/about-img-1.jpg" alt="Image" />
             </div>
           </DivAnimateXAxis>
 
@@ -49,12 +49,12 @@ const AboutSection = ({ btnStyle }: Props) => {
               >
                 <span className="txt">Get Tickets</span>
                 <span className="icon">
-                  <img src="/estudiosapp/assets/img/rv-1-icon-1.png" alt="icon" />
+                  <img src="/assets/img/rv-1-icon-1.png" alt="icon" />
                 </span>
               </a>
 
               <div className="rv-1-about__right-img">
-                <img src="/estudiosapp/assets/img/about-img-2.jpg" alt="image" />
+                <img src="/assets/img/about-img-2.jpg" alt="image" />
               </div>
             </div>
           </DivAnimateXAxis>
@@ -62,17 +62,17 @@ const AboutSection = ({ btnStyle }: Props) => {
 
         <div className="rv-1-about__vectors">
           <img
-            src="/estudiosapp/assets/img/rv-1-vector-6.png"
+            src="/assets/img/rv-1-vector-6.png"
             alt="vector"
             className="rv-1-about__vector rv-1-about__vector-1"
           />
           <img
-            src="/estudiosapp/assets/img/rv-1-vector-7.png"
+            src="/assets/img/rv-1-vector-7.png"
             alt="vector"
             className="rv-1-about__vector rv-1-about__vector-2"
           />
           <img
-            src="/estudiosapp/assets/img/rv-1-vector-8.png"
+            src="/assets/img/rv-1-vector-8.png"
             alt="vector"
             className="rv-1-about__vector rv-1-about__vector-3"
           />

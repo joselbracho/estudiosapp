@@ -10,7 +10,7 @@ const AboutSection6 = () => {
           <DivAnimateYAxis className="col-lg-6 col-md-8 col-10 col-xxs-12">
             <div className="rv-14-about__img">
               <div className="rv-14-about__img-container">
-                <img src="/estudiosapp/assets/img/rv-14-about-img.png" alt="Image" />
+                <img src="/assets/img/rv-14-about-img.png" alt="Image" />
               </div>
             </div>
           </DivAnimateYAxis>

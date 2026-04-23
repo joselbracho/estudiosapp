@@ -4,11 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Si usas un dominio propio, borra '/estudiosapp' y deja solo ''
-  basePath: '/estudiosapp', 
-  
-  // Agregamos esto para asegurar que Next.js genere las rutas de archivos correctamente
-  trailingSlash: true, 
+  // Para dominio propio en la raíz, todo debe ser vacío o default
+  basePath: '',
+  trailingSlash: true,
 };
 
 export default nextConfig;

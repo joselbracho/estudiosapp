@@ -11,8 +11,8 @@ const SidebarSection = ({ isSidebarOpen, sidebarRef }: Props) => {
       ref={sidebarRef}
     >
       <div className="rv-2-sidebar__logo-container">
-        <Link href="/estudiosapp/">
-          <img src="/estudiosapp/assets/img/logo-2.png" alt="Logo" className="logo" />
+        <Link href="/">
+          <img src="/assets/img/logo-2.png" alt="Logo" className="logo" />
         </Link>
       </div>
 
@@ -23,22 +23,22 @@ const SidebarSection = ({ isSidebarOpen, sidebarRef }: Props) => {
 
             <ul className="sub-menu rv-mega-menu">
               <li>
-                <Link href="/estudiosapp/">Event</Link>
+                <Link href="/">Event</Link>
               </li>
               <li>
-                <Link href="/estudiosapp/home-2">Personal Portfolio</Link>
+                <Link href="/home-2">Personal Portfolio</Link>
               </li>
               <li>
-                <Link href="/estudiosapp/home-3">Wedding Planner</Link>
+                <Link href="/home-3">Wedding Planner</Link>
               </li>
               <li>
-                <Link href="/estudiosapp/home-4">Gardening</Link>
+                <Link href="/home-4">Gardening</Link>
               </li>
               <li>
-                <Link href="/estudiosapp/home-5">Herbal Tea</Link>
+                <Link href="/home-5">Herbal Tea</Link>
               </li>
               <li>
-                <Link href="/estudiosapp/home-6">ECO</Link>
+                <Link href="/home-6">ECO</Link>
               </li>
             </ul>
           </li>

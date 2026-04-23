@@ -12,9 +12,9 @@ const FooterSection4 = () => {
           <div className="row g-4 justify-content-xl-between justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6 col-8 col-xxs-12">
               <div className="rv-1-footer__about">
-                <Link href="/estudiosapp/">
+                <Link href="/">
                   <img
-                    src="/estudiosapp/assets/img/logo-main-white.png"
+                    src="/assets/img/logo-main-white.png"
                     alt="Logo"
                     className="logo"
                   />

@@ -22,7 +22,7 @@ const ProjectDetailFeature = () => {
         <div className="col-xl-7 col-lg-6">
           <div className="rv-project-details__features-img">
             <ImgAnimateLeftToRight
-              src="/estudiosapp/assets/img/rv-project-details-features-img.jpg"
+              src="/assets/img/rv-project-details-features-img.jpg"
               alt="image"
             />
           </div>

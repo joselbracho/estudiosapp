@@ -23,11 +23,11 @@ const AllBlogSection = () => {
               <div className="rv-1-blog__txt">
                 <ul className="rv-1-blog__infos">
                   <li>
-                    <img src="/estudiosapp/assets/img/rv-1-icon-4.png" alt="icon" />{" "}
+                    <img src="/assets/img/rv-1-icon-4.png" alt="icon" />{" "}
                     {item.date}
                   </li>
                   <li>
-                    <img src="/estudiosapp/assets/img/rv-1-icon-5.png" alt="icon" />{" "}
+                    <img src="/assets/img/rv-1-icon-5.png" alt="icon" />{" "}
                     {item.comments} Comments
                   </li>
                 </ul>

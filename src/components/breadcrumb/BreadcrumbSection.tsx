@@ -12,7 +12,7 @@ const BreadcrumbSection = ({ title, currentPage }: Props) => {
 
         <ul className="rv-breadcrumb__nav d-flex justify-content-center">
           <li>
-            <Link href="/estudiosapp/">
+            <Link href="/">
               <i className="fa-solid fa-sharp fa-home"></i> Home
             </Link>
           </li>

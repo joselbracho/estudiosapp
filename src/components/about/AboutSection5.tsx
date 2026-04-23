@@ -49,8 +49,8 @@ const AboutSection5 = () => {
 
           <div className="col-lg-6">
             <div className="rv-6-about__img">
-              <img src="/estudiosapp/assets/img/rv-6-about-img-1.jpg" alt="Image" />
-              <img src="/estudiosapp/assets/img/rv-6-about-img-2.jpg" alt="Image" />
+              <img src="/assets/img/rv-6-about-img-1.jpg" alt="Image" />
+              <img src="/assets/img/rv-6-about-img-2.jpg" alt="Image" />
             </div>
           </div>
         </div>
