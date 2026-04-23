@@ -69,15 +69,12 @@ const HeaderSection7 = () => {
               <div className="rv-7-header-top__actions rv-14-header-top__actions">
                 <h6 className="rv-8-header-contact-info email">
                   <i className="fa-solid fa-envelope"></i>
-                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+                  <a href="mailto:infoestudiosapp@gmail.com">infoestudiosapp@gmail.com</a>
                 </h6>
-                <h6 className="rv-8-header-contact-info location">
-                  <i className="fa-solid fa-sharp fa-location-dot"></i> New
-                  York, NY 10038
-                </h6>
+               
                 <h6 className="rv-8-header-contact-info numb">
                   <i className="fa-solid fa-sharp fa-phone"></i>{" "}
-                  <a href="tel:1237775643">(123) 777 - 5643</a>
+                  <a href="tel:+54 9 11 2713-5053">(+54) 9 11 2713-5053</a>
                 </h6>
               </div>
             </div>
