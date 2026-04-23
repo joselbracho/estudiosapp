@@ -15,7 +15,17 @@ import {
   philosopher,
   sahitya,
 } from "./font";
+import { Metadata } from "next";
 import { ToastContainer } from "react-toastify";
+
+export const metadata: Metadata = {
+  title: "eStudioapp",
+  description: "Professional Developers",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

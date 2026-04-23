@@ -10,12 +10,7 @@ import StatSection from "@/components/stats/StatSection";
 import TeamSection6 from "@/components/team/TeamSection6";
 import TestimonialSection5 from "@/components/testimonial/TestimonialSection5";
 import VideoSection7 from "@/components/video/VideoSection7";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "eStudioapp",
-  description: "Professional Developers",
-};
 export default function Home() {
   return (
     <main className="rv-4-body">
