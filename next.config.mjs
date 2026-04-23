@@ -4,8 +4,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/estudiosapp',
-  assetPrefix: '/estudiosapp', // Esto asegura que los assets (JS/CSS) busquen en la subcarpeta
+  // Si usas un dominio propio, borra '/estudiosapp' y deja solo ''
+  basePath: '/estudiosapp', 
+  
+  // Agregamos esto para asegurar que Next.js genere las rutas de archivos correctamente
+  trailingSlash: true, 
 };
 
 export default nextConfig;
