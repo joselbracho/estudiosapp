@@ -1625,7 +1625,7 @@
 
         &.fixed {
             border-color: transparent;
-            background-color: #164e5d;
+            background: linear-gradient(90deg, rgb(199, 22, 83) 0%, rgb(171, 59, 141) 41%, rgb(141, 99, 197) 100%);
         }
 
         &-right {
@@ -1685,7 +1685,7 @@
 
     .rv-1-header-nav__sidebar {
         @include md {
-            background-color: #164e5d;
+            background-color: linear-gradient(90deg, rgb(199, 22, 83) 0%, rgb(171, 59, 141) 41%, rgb(141, 99, 197) 100%);;
         }
 
         .sub-menu {

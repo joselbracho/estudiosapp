@@ -11,8 +11,8 @@ import VideoSection from "@/components/video/VideoSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Homepage 3",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Homepage 3",
+  description: "Professional Developers",
 };
 export default function Home() {
   return (

@@ -16,7 +16,7 @@ const BannerSection8 = () => {
                   Empower Digital Creators
                 </h6>
                 <h1 className="rv-14-banner__title rv-text-anime">
-                  Develop Professionals.
+                  Professional Developers
                 </h1>
                 <a href="#" className="rv-10-def-btn rv-14-def-btn">
                   Schedule Consultation{" "}

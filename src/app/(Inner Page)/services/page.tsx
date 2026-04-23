@@ -5,8 +5,8 @@ import ServiceSection2 from "@/components/service/ServiceSection2";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Services Page",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Services Page",
+  description: "Professional Developers",
 };
 export default function Home() {
   return (

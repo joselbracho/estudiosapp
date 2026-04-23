@@ -13,7 +13,7 @@ const FooterSection = () => {
               <div className="rv-1-footer__about">
                 <Link href="/">
                   <img
-                    src="/assets/img/logo-main-white.png"
+                    src="/assets/img/e-studios-app-white.png"
                     alt="Logo"
                     className="logo"
                   />

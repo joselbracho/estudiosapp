@@ -5,8 +5,8 @@ import TeamSection2 from "@/components/team/TeamSection2";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Team Members Page",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Team Members Page",
+  description: "Professional Developers",
 };
 export default function Home() {
   return (

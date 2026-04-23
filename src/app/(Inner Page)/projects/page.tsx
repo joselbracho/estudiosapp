@@ -5,8 +5,8 @@ import ProjectSection from "@/components/portfolio/ProjectSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Projects Page",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Projects Page",
+  description: "Professional Developers",
 };
 
 export default function Home() {

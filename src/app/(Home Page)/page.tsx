@@ -13,8 +13,8 @@ import VideoSection7 from "@/components/video/VideoSection7";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Homepage 1",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp",
+  description: "Professional Developers",
 };
 export default function Home() {
   return (
@@ -26,10 +26,7 @@ export default function Home() {
       <StatSection />
       <CtaSection />
       <CaseStudySection />
-      <TeamSection6 />
-      <TestimonialSection5 />
-      <VideoSection7 />
-      <BlogSection6 />
+
       <FooterSection8 />
     </main>
   );

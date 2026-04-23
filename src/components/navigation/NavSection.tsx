@@ -40,34 +40,7 @@ const NavSection = ({ style, logo }: Props) => {
           <Navlink href="/about">About</Navlink>
         </li>
 
-        <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("pages")}
-          >
-            Pages
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Navlink href="/projects">Projects</Navlink>
-            </li>
-            <li>
-              <Navlink href="/projects/ecological-harmony-project">
-                Project Details
-              </Navlink>
-            </li>
-            <li>
-              <Navlink href="/team">Team Members</Navlink>
-            </li>
-            <li>
-              <Navlink href="/login">Login</Navlink>
-            </li>
-            <li>
-              <Navlink href="/register">Register</Navlink>
-            </li>
-          </ul>
-        </li>
+        
         {logo && (
           <li className="d-none d-lg-block">
             <Navlink href="/" className="rv-5-logo">
@@ -75,48 +48,12 @@ const NavSection = ({ style, logo }: Props) => {
             </Navlink>
           </li>
         )}
-        <li className={dropdown.service ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("service")}
-          >
-            Services
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Navlink href="/services">Services</Navlink>
-            </li>
-            <li>
-              <Navlink href="/services/digital-marketing">
-                Service Details
-              </Navlink>
-            </li>
-          </ul>
-        </li>
-
-        <li className={dropdown.blog ? "rv-dropdown-active" : ""}>
-          <a
-            className="dropdown-btn"
-            role="button"
-            onClick={() => handleToggleDropdown("blog")}
-          >
-            Blog
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Navlink href="/blog">Blog</Navlink>
-            </li>
-            <li>
-              <Navlink href="/blog/entrepreneur-productivity">
-                Blog Details
-              </Navlink>
-            </li>
-          </ul>
+        <li>
+          <Navlink href="/#">Services</Navlink>
         </li>
 
         <li>
-          <Navlink href="/contact">Contact</Navlink>
+          <Navlink href="/#">Contact</Navlink>
         </li>
       </ul>
     </div>

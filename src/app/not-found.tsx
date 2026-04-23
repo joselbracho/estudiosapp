@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Revel 404 Page",
-  description: "Developed by Azizur Rahman",
+  description: "Professional Developers",
 };
 export default function NotFound() {
   return <ErrorMain />;

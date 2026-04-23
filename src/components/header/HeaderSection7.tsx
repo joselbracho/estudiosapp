@@ -79,20 +79,6 @@ const HeaderSection7 = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
-              <form
-                action="#"
-                className="rv-7-header-top__actions rv-14-header-top-form"
-              >
-                <select name="language" id="rv-7-lang">
-                  <option value="English">English</option>
-                  <option value="Spanish">Spanish</option>
-                  <option value="French">French</option>
-                  <option value="Korean">Korean</option>
-                  <option value="Bangla">Bangla</option>
-                </select>
-              </form>
-            </div>
           </div>
         </div>
       </div>

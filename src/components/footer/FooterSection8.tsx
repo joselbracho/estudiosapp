@@ -11,7 +11,7 @@ const FooterSection8 = () => {
               <div className="rv-1-footer__about">
                 <Link href="/">
                   <img
-                    src="/assets/img/logo-main-white.png"
+                    src="/assets/img/e-studios-app-white.png"
                     alt="Logo"
                     className="logo"
                   />
@@ -125,7 +125,7 @@ const FooterSection8 = () => {
           <div className="row gy-4 align-items-center">
             <div className="col-md-7">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; 2023 Codebasket All Rights Reserved by site
+                &copy; 2026 eStudiosapp All Rights Reserved by site
               </p>
             </div>
             <div className="col-md-5">

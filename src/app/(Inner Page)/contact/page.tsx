@@ -4,8 +4,8 @@ import InnerLayout from "@/components/layout/InnerLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Corporata - Contact Page",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Contact Page",
+  description: "Professional Developers",
 };
 export default function Home() {
   return (

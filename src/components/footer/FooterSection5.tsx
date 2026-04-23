@@ -56,7 +56,7 @@ const FooterSection5 = ({
                     <div className="rv-5-about__call-txt">
                       <h6>Our Email</h6>
                       <a href="tel:123654564388" className="">
-                        example@gmail.com
+                        infoestudiosapp@gmail.com
                       </a>
                     </div>
                   </div>
@@ -215,7 +215,7 @@ const FooterSection5 = ({
           <div className="row align-items-center gy-3">
             <div className="col-md-7">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} Codebasket All Rights Reserved
+                &copy; {new Date().getFullYear()} eStudiosapp All Rights Reserved
                 by site
               </p>
             </div>

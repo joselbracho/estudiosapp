@@ -14,7 +14,7 @@ const FooterSection4 = () => {
               <div className="rv-1-footer__about">
                 <Link href="/">
                   <img
-                    src="/assets/img/logo-main-white.png"
+                    src="/assets/img/e-studios-app-white.png"
                     alt="Logo"
                     className="logo"
                   />
@@ -99,7 +99,7 @@ const FooterSection4 = () => {
           <div className="row gy-3 align-items-center">
             <DivAnimateXAxis position={-60} className="col-md-8">
               <p className="rv-2-copyright rv-1-copyright mb-0 text-center text-md-start">
-                &copy; {new Date().getFullYear()} Codebasket All Rights Reserved
+                &copy; {new Date().getFullYear()} eStudiosapp All Rights Reserved
                 by site
               </p>
             </DivAnimateXAxis>

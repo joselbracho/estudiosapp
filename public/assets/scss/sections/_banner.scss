@@ -2916,10 +2916,17 @@
     }
 }
 
-// INDEX-14 BANNER
+
 .rv-14-banner-container {
     background: linear-gradient(90deg, rgba(199,22,83,1) 0%, rgba(171,59,141,1) 41%, rgba(141,99,197,1) 100%);
     padding: 250px 0 230px;
+    @include md {
+        padding: 0px 0 20px;
+    }
+
+    @include sm {
+        padding: 0px 0 20px;
+    }
 }
 
 .rv-14-banner {
@@ -2956,7 +2963,7 @@
         position: absolute;
         inset: 0;
         z-index: -1;
-        background-color: #174E5E;
+        background: linear-gradient(90deg, rgb(199, 22, 83) 0%, rgb(171, 59, 141) 41%, rgb(141, 99, 197) 100%);
         mix-blend-mode: multiply;
     }
 

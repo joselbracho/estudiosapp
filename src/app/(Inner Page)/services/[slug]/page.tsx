@@ -12,8 +12,8 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Corporata - Service Details Page",
-  description: "Developed by Azizur Rahman",
+  title: "eStudioapp - Service Details Page",
+  description: "Professional Developers",
 };
 export default function Home({ params }: { params: { slug: string } }) {
   const serviceInfo = serviceData2.find((item) => item.slug === params.slug);
