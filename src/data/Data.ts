@@ -1586,12 +1586,12 @@ const bannerData4 = [
 ];
 
 const partnerData2 = [
-  "assets/img/rv-14-partner-1.png",
-  "assets/img/rv-14-partner-2.png",
-  "assets/img/rv-14-partner-3.png",
-  "assets/img/rv-14-partner-4.png",
-  "assets/img/rv-14-partner-5.png",
-  "assets/img/rv-14-partner-1.png",
+  "assets/img/technologies/aws-svgrepo-com.svg",
+  "assets/img/technologies/gcp-svgrepo-com.svg",
+  "assets/img/technologies/claude-color.png",
+  "assets/img/technologies/geminicli-color.png",
+  "assets/img/technologies/openai-svgrepo-com.svg",
+  "assets/img/technologies/kubernetes-svgrepo-com.svg",
 ];
 
 const caseStudyData = [
