@@ -1597,28 +1597,28 @@ const partnerData2 = [
 const caseStudyData = [
   {
     id: 1,
-    img: "assets/img/rv-14-case-study-1.jpg",
+    img: "assets/img/banners/Home_Header.png",
     icon: "assets/img/rv-14-case-study-icon-1.png",
     subTitle: "Branding",
     title: "Strategic Block",
   },
   {
     id: 2,
-    img: "assets/img/rv-14-case-study-2.jpg",
+    img: "assets/img/banners/Home_Header.png",
     icon: "assets/img/rv-14-case-study-icon-2.png",
     subTitle: "Sales Increase",
     title: "Market Research",
   },
   {
     id: 3,
-    img: "assets/img/rv-14-case-study-1.jpg",
+    img: "assets/img/banners/Home_Header.png",
     icon: "assets/img/rv-14-case-study-icon-3.png",
     subTitle: "Business",
     title: "Financial Control",
   },
   {
     id: 4,
-    img: "assets/img/rv-14-case-study-3.jpg",
+    img: "assets/img/banners/Home_Header.png",
     icon: "assets/img/rv-14-case-study-icon-1.png",
     subTitle: "Branding",
     title: "Strategic Block",
