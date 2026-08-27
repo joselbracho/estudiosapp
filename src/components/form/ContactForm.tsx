@@ -54,10 +54,10 @@ const ContactForm = ({ innerPage }: Props) => {
             <option value="Selects Subject" hidden>
               Select Subject
             </option>
-            <option value="Project Buy">Project Buy</option>
-            <option value="Custom Project">Custom Project</option>
-            <option value="Partnership Offer">Partnership Offer</option>
-            <option value="others">Others</option>
+            <option value="Consulta general">Consulta general</option>
+            <option value="Proyecto a medida">Proyecto a medida</option>
+            <option value="Infraestructura y soporte">Infraestructura y soporte</option>
+            <option value="Propuesta de alianza">Propuesta de alianza</option>
           </select>
         </div>
         <div className="col-12">
@@ -69,7 +69,7 @@ const ContactForm = ({ innerPage }: Props) => {
           ></textarea>
         </div>
         <div className="col-12">
-          <button type="submit">Send Message</button>
+          <button type="submit">Enviar mensaje</button>
         </div>
       </div>
     </form>

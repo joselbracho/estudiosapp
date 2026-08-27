@@ -104,11 +104,9 @@ const HeaderSection7 = () => {
                   isSidebarOpen ? "active" : ""
                 }`}
                 ref={sidebarRef}
+                style={{ backgroundColor: isSidebarOpen ? '#0f0f11' : 'transparent' }}
               >
-                <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
-                  <Link href="/" className="logo-container">
-                    <img src="/assets/img/rv-14-logo.png" alt="logo" />
-                  </Link>
+                <div className="sidebar-heading d-lg-none d-flex align-items-center justify-content-end">
                   <button
                     className="rv-3-def-btn rv-1-header-mobile-menu-btn rv-14-mobile-menu-btn sidebar-close-btn"
                     onClick={closeSidebar}
@@ -123,8 +121,8 @@ const HeaderSection7 = () => {
 
             <div className="col-lg-3 col-md-9 col-8 col-xxs-6 text-end order-1">
               <div className="rv-7-header-bottom-right rv-14-header-bottom-right">
-                <a href="#" className="rv-3-def-btn d-xxs-none">
-                  Get in Touch
+                <a href="#contact" className="rv-3-def-btn d-xxs-none">
+                  Agendar
                 </a>
                 <div className="rv-7-header-bottom-right__actions rv-14-header-bottom-right__actions">
                   <button

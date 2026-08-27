@@ -70,6 +70,7 @@ const CaseStudySection = () => {
                       {item.subTitle}
                     </span>
                     <h5 className="rv-14-case-study__title">{item.title}</h5>
+                    <p style={{marginTop: "10px", fontSize: "14px"}}>{item.desc}</p>
                   </div>
                 </SwiperSlide>
               ))}

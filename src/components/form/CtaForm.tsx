@@ -40,13 +40,13 @@ const CtaForm = () => {
           />
           <label htmlFor="nwsltr-checkbox">
             {" "}
-            I agree to the <a href="#">Privacy Policy</a>.
+            Acepto la <a href="#">Política de Privacidad</a>.
           </label>
         </div>
       </div>
       <button>
         <i className="fa-light fa-paper-plane"></i>{" "}
-        <span className="txt">Subscribe</span>
+        <span className="txt">Suscribirme</span>
       </button>
     </form>
   );

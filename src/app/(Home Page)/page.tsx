@@ -17,7 +17,7 @@ export default function Home() {
       <ServiceSection6 />
       <AboutSection6 />
       <StatSection />
-      <CtaSection />
+      {/* <CtaSection /> */}
       <CaseStudySection />
       <ContactSection innerPage />
       <FooterSection8 />

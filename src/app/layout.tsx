@@ -19,12 +19,14 @@ import { Metadata } from "next";
 import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
-  title: "eStudioapp",
-  description: "Professional Developers",
+  title: "eStudiosApp — Soluciones cloud y software a medida",
+  description: "Desarrollo de software, infraestructura cloud e inteligencia artificial aplicada. Trabajamos con empresas e inmobiliarias en Argentina y el exterior.",
   icons: {
     icon: "/favicon.ico",
   },
 };
+
+import WhatsAppButton from "@/components/utils/WhatsAppButton";
 
 export default function RootLayout({
   children,
@@ -38,6 +40,7 @@ export default function RootLayout({
       >
         <Cursor />
         {children}
+        <WhatsAppButton />
         <ToastContainer />
       </body>
     </html>

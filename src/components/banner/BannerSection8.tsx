@@ -6,20 +6,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const BannerSection8 = () => {
   return (
-    <section className="rv-14-banner">
+    <section className="rv-14-banner" id="home">
       <div className="rv-14-banner-container">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xxl-9 col-lg-10">
               <div className="rv-11-banner__txt">
                 <h6 className="rv-14-section__sub-title rv-14-banner__sub-title rv-text-anime">
-                  Empower Digital Creators
+                  Construimos y sostenemos el software que tu operación necesita.
                 </h6>
                 <h1 className="rv-14-banner__title rv-text-anime">
-                  Professional Developers
+                  Cloud, software e inteligencia artificial
                 </h1>
-                <a href="#" className="rv-10-def-btn rv-14-def-btn">
-                  Schedule Consultation{" "}
+                <a href="#contact" className="rv-10-def-btn rv-14-def-btn">
+                  Agendar consulta{" "}
                   <i className="fa-regular fa-arrow-up-right"></i>
                 </a>
               </div>

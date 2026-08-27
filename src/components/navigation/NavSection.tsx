@@ -32,14 +32,16 @@ const NavSection = ({ style, logo }: Props) => {
     <div className={style}>
       <ul className="justify-content-center">
         <li>
-          <Navlink href="/">Home</Navlink>
-
+          <Navlink href="/#home">Inicio</Navlink>
+        </li>
+        
+        <li>
+          <Navlink href="/#services">Servicios</Navlink>
         </li>
 
         <li>
-          <Navlink href="/about">About</Navlink>
+          <Navlink href="/#about">Nosotros</Navlink>
         </li>
-
         
         {logo && (
           <li className="d-none d-lg-block">
@@ -48,12 +50,9 @@ const NavSection = ({ style, logo }: Props) => {
             </Navlink>
           </li>
         )}
-        <li>
-          <Navlink href="/#">Services</Navlink>
-        </li>
 
         <li>
-          <Navlink href="/#">Contact</Navlink>
+          <Navlink href="/#contact">Contacto</Navlink>
         </li>
       </ul>
     </div>

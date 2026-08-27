@@ -6,25 +6,25 @@ import DivAnimateYAxis from "../utils/DivAnimateYAxis";
 const ServiceSection6 = () => {
   const serviceData = serviceData2.slice(0, 4);
   return (
-    <section className="rv-14-services rv-section-spacing">
+    <section className="rv-14-services rv-section-spacing" id="services">
       <DivAnimateYAxis className="container">
         <div className="rv-3-section-heading rv-14-section__heading">
           <div className="rv-3-section-heading__left">
             <h6 className="rv-14-section__sub-title rv-text-anime">
-              Business Services
+              Servicios
             </h6>
             <h2 className="rv-7-section__title rv-text-anime">
-              Specialized Domains Where Our Great Team Shines
+              Cuatro frentes de trabajo, una sola forma de entregar.
             </h2>
             <p className="rv-14-section__descr rv-text-anime">
-              habitats plateau dictums Quisqueya cursus, dictum orca pharetra
+              Diseñamos, implementamos y mantenemos. Cada proyecto arranca por entender la operación, no por elegir la tecnología.
             </p>
           </div>
 
           <div className="rv-3-section-heading__right">
-            <a href="#" className="rv-10-def-btn rv-14-def-btn">
-              View Services <i className="fa-regular fa-arrow-up-right"></i>
-            </a>
+            {/* <a href="#" className="rv-10-def-btn rv-14-def-btn">
+              Ver servicios <i className="fa-regular fa-arrow-up-right"></i>
+            </a> */}
           </div>
         </div>
 
@@ -47,12 +47,12 @@ const ServiceSection6 = () => {
                   <Link href={`/services/${item.slug}`}>{item.title}</Link>
                 </h4>
                 <p className="rv-3-service__descr">{item.description}</p>
-                <Link
+                {/* <Link
                   href={`/services/${item.slug}`}
                   className="rv-14-service__btn"
                 >
                   Read More <i className="fa-regular fa-arrow-up-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </DivAnimateYAxis>
           ))}

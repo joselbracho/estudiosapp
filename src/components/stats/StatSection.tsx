@@ -9,33 +9,33 @@ const StatSection = () => {
           <div className="col">
             <div className="rv-14-stat text-center text-lg-start">
               <h6 className="rv-14-stat__title rv-text-anime">
-                Business Solution
+                Años de experiencia
               </h6>
-              <h3 className="rv-14-stat__number rv-text-anime">2450+</h3>
+              <h3 className="rv-14-stat__number rv-text-anime">10+</h3>
             </div>
           </div>
           <div className="col">
-            <div className="rv-14-stat text-center">
+            <div className="rv-14-stat rv-14-stat--last text-center text-lg-end">
               <h6 className="rv-14-stat__title rv-text-anime">
-                Years Experience
+                Proyectos entregados
               </h6>
               <h3 className="rv-14-stat__number rv-text-anime">25+</h3>
             </div>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <div className="rv-14-stat text-center">
-              <h6 className="rv-14-stat__title rv-text-anime">Expert Member</h6>
+              <h6 className="rv-14-stat__title rv-text-anime">Clientes activos</h6>
               <h3 className="rv-14-stat__number rv-text-anime">134+</h3>
             </div>
           </div>
           <div className="col">
             <div className="rv-14-stat rv-14-stat--last text-center text-lg-end">
               <h6 className="rv-14-stat__title rv-text-anime">
-                Satisfied Clients
+                Disponibilidad de los sistemas que administramos
               </h6>
               <h3 className="rv-14-stat__number rv-text-anime">864+</h3>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

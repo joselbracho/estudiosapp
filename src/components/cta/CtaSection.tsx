@@ -10,11 +10,11 @@ const CtaSection = () => {
           <div className="col-lg-6">
             <div className="rv-14-cta__txt">
               <h6 className="rv-1-section__sub-title rv-text-anime">
-                Our Newsletter
+                Newsletter
               </h6>
 
               <h2 className="rv-1-section__title rv-text-anime mb-0">
-                Become a Member For Unique Updates!
+                Novedades de cloud, software e IA, una vez por mes.
               </h2>
             </div>
           </div>
