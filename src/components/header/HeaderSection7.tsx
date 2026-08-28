@@ -62,7 +62,7 @@ const HeaderSection7 = () => {
 
   return (
     <header className="rv-14-header rv-1-header p-0">
-      <div className="rv-10-header-top rv-14-header-top">
+      <div className="rv-10-header-top rv-14-header-top d-none d-md-block">
         <div className="container">
           <div className="row gy-2 align-items-center">
             <div className="col-md-9">
