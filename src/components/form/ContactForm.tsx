@@ -1,98 +1,78 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { toast } from "react-toastify";
+import { useForm, ValidationError } from "@formspree/react";
 
 type Props = {
   innerPage?: boolean;
 };
 
 const ContactForm = ({ innerPage }: Props) => {
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [state, handleSubmit] = useForm("mnpqqavb");
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    
-    // CAPTURAR DATOS ANTES de deshabilitar los campos
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    setIsSubmitting(true);
-
-    const submitForm = async () => {
-      try {
-        const response = await fetch("https://formspree.io/f/mnpqqavb", {
-          method: "POST",
-          body: formData,
-          headers: {
-            Accept: "application/json",
-          },
-        });
-
-        if (response.ok) {
-          toast.success("¡Mensaje enviado con éxito!");
-          form.reset();
-        } else {
-          const data = await response.json();
-          if (data.errors) {
-            toast.error(data.errors.map((error: any) => error.message).join(", "));
-          } else {
-            toast.error("Hubo un problema al enviar el formulario.");
-          }
-        }
-      } catch (error) {
-        toast.error("Ocurrió un error inesperado al enviar. Inténtalo de nuevo.");
-      } finally {
-        setIsSubmitting(false);
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("¡Mensaje enviado con éxito!");
+      if (formRef.current) {
+        formRef.current.reset();
       }
-    };
-
-    submitForm();
-  };
+    }
+    // Mostramos error genérico si lo hay
+    if (state.errors && state.errors.length > 0) {
+      const errorMsg = state.errors.map(err => err.message).join(", ") || "Hubo un problema al enviar el formulario.";
+      toast.error(errorMsg);
+    }
+  }, [state.succeeded, state.errors]);
 
   return (
-      <form
-        onSubmit={handleSubmit}
-        className={`rv-2-contact__form ${
-          innerPage ? "rv-inner-contact__form" : ""
-        }`}
-      >
-        <div className="row">
-          <div className="col-sm-6">
-            <input
-              type="text"
-              id="rv-2-contact-name"
-              name="name"
-              placeholder="Your Name"
-              required
-              disabled={isSubmitting}
-            />
-          </div>
-          <div className="col-sm-6">
-            <input
-              type="email"
-              id="rv-2-contact-email"
-              name="email"
-              placeholder="Email"
-              required
-              disabled={isSubmitting}
-            />
-          </div>
-          <div className="col-12">
-            <textarea
-              id="rv-2-contact-message"
-              name="message"
-              placeholder="Message"
-              required
-              disabled={isSubmitting}
-            ></textarea>
-          </div>
-          <div className="col-12">
-            <button type="submit" disabled={isSubmitting}>
-              {isSubmitting ? "Enviando..." : "Enviar mensaje"}
-            </button>
-          </div>
+    <form
+      ref={formRef}
+      onSubmit={handleSubmit}
+      className={`rv-2-contact__form ${
+        innerPage ? "rv-inner-contact__form" : ""
+      }`}
+    >
+      <div className="row">
+        <div className="col-sm-6">
+          <input
+            type="text"
+            id="rv-2-contact-name"
+            name="name"
+            placeholder="Your Name"
+            required
+            disabled={state.submitting}
+          />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
-      </form>
+        <div className="col-sm-6">
+          <input
+            type="email"
+            id="rv-2-contact-email"
+            name="email"
+            placeholder="Email"
+            required
+            disabled={state.submitting}
+          />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        </div>
+        <div className="col-12">
+          <textarea
+            id="rv-2-contact-message"
+            name="message"
+            placeholder="Message"
+            required
+            disabled={state.submitting}
+          ></textarea>
+          <ValidationError prefix="Message" field="message" errors={state.errors} />
+        </div>
+        <div className="col-12">
+          <button type="submit" disabled={state.submitting}>
+            {state.submitting ? "Enviando..." : "Enviar mensaje"}
+          </button>
+        </div>
+      </div>
+    </form>
   );
 };
 
