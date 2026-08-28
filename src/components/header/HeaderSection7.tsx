@@ -124,14 +124,14 @@ const HeaderSection7 = () => {
                 <a href="#contact" className="rv-3-def-btn d-xxs-none">
                   Agendar
                 </a>
-                <div className="rv-7-header-bottom-right__actions rv-14-header-bottom-right__actions">
+                {/* <div className="rv-7-header-bottom-right__actions rv-14-header-bottom-right__actions">
                   <button
                     className="rv-14-search-btn rv-search-modal-open-btn"
                     onClick={openSearchModal}
                   >
                     <i className="fa-light fa-magnifying-glass"></i>
                   </button>
-                </div>
+                </div> */}
                 <button
                   className="rv-1-header-mobile-menu-btn rv-3-def-btn d-inline-block d-lg-none p-0"
                   id="rv-1-header-mobile-menu-btn"
