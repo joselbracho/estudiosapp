@@ -1599,7 +1599,7 @@ const caseStudyData = [
     id: 1,
     img: "assets/img/banners/Home_Header.png",
     icon: "assets/img/rv-14-case-study-icon-1.png",
-    subTitle: "Inmobiliario",
+    subTitle: "Agentes",
     title: "Atención automatizada de consultas",
     desc: "Un agente de IA responde y califica cada consulta apenas entra, y agenda la visita sin intervención manual.",
   },
