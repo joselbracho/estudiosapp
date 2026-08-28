@@ -214,6 +214,10 @@
 
         img {
             max-height: 90px;
+
+            @include sm {
+                max-height: 70px;
+            }
         }
     }
 }
