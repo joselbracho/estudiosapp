@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import Script from "next/script";
 
 type Props = {
   innerPage?: boolean;
@@ -12,69 +11,51 @@ const ContactForm = ({ innerPage }: Props) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
+    // CAPTURAR DATOS ANTES de deshabilitar los campos
     const form = e.currentTarget;
+    const formData = new FormData(form);
 
-    const executeRecaptchaAndSubmit = () => {
-      const grecaptcha = (window as any).grecaptcha;
-      if (grecaptcha && grecaptcha.enterprise) {
-        grecaptcha.enterprise.ready(async function() {
-          try {
-            const token = await grecaptcha.enterprise.execute('6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcY0PpbPy', {action: 'submit'});
-            
-            const recaptchaInput = document.getElementById('g-recaptcha-response') as HTMLInputElement;
-            if (recaptchaInput) {
-               recaptchaInput.value = token;
-            }
+    setIsSubmitting(true);
 
-            const formData = new FormData(form);
-            formData.set("g-recaptcha-response", token);
-
-            const response = await fetch("https://formspree.io/f/mnpqqavb", {
-              method: "POST",
-              body: formData,
-              headers: {
-                Accept: "application/json",
-              },
-            });
-
-            if (response.ok) {
-              toast.success("¡Mensaje enviado con éxito!");
-              form.reset();
-            } else {
-              const data = await response.json();
-              if (data.errors) {
-                toast.error(data.errors.map((error: any) => error.message).join(", "));
-              } else {
-                toast.error("Hubo un problema al enviar el formulario.");
-              }
-            }
-          } catch (error) {
-            toast.error("Ocurrió un error inesperado al enviar. Inténtalo de nuevo.");
-          } finally {
-            setIsSubmitting(false);
-          }
+    const submitForm = async () => {
+      try {
+        const response = await fetch("https://formspree.io/f/mnpqqavb", {
+          method: "POST",
+          body: formData,
+          headers: {
+            Accept: "application/json",
+          },
         });
-      } else {
-        toast.error("Error cargando reCAPTCHA. Refresca la página.");
+
+        if (response.ok) {
+          toast.success("¡Mensaje enviado con éxito!");
+          form.reset();
+        } else {
+          const data = await response.json();
+          if (data.errors) {
+            toast.error(data.errors.map((error: any) => error.message).join(", "));
+          } else {
+            toast.error("Hubo un problema al enviar el formulario.");
+          }
+        }
+      } catch (error) {
+        toast.error("Ocurrió un error inesperado al enviar. Inténtalo de nuevo.");
+      } finally {
         setIsSubmitting(false);
       }
     };
 
-    executeRecaptchaAndSubmit();
+    submitForm();
   };
 
   return (
-    <>
-      <Script src="https://www.google.com/recaptcha/enterprise.js?render=6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcY0PpbPy" strategy="lazyOnload" />
       <form
         onSubmit={handleSubmit}
         className={`rv-2-contact__form ${
           innerPage ? "rv-inner-contact__form" : ""
         }`}
       >
-        <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
         <div className="row">
           <div className="col-sm-6">
             <input
@@ -112,7 +93,6 @@ const ContactForm = ({ innerPage }: Props) => {
           </div>
         </div>
       </form>
-    </>
   );
 };
 
