@@ -18,46 +18,43 @@ const ContactForm = ({ innerPage }: Props) => {
 
     const executeRecaptchaAndSubmit = () => {
       const grecaptcha = (window as any).grecaptcha;
-      if (grecaptcha) {
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcYOPpbPy', {action: 'submit'}).then(async function(token: string) {
+      if (grecaptcha && grecaptcha.enterprise) {
+        grecaptcha.enterprise.ready(async function() {
+          try {
+            const token = await grecaptcha.enterprise.execute('6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcY0PpbPy', {action: 'submit'});
             
-            // Asigna el token al input oculto
             const recaptchaInput = document.getElementById('g-recaptcha-response') as HTMLInputElement;
             if (recaptchaInput) {
                recaptchaInput.value = token;
             }
 
             const formData = new FormData(form);
-            // Asegura que el token vaya en formData para Formspree
             formData.set("g-recaptcha-response", token);
 
-            try {
-              const response = await fetch("https://formspree.io/f/mnpqqavb", {
-                method: "POST",
-                body: formData,
-                headers: {
-                  Accept: "application/json",
-                },
-              });
+            const response = await fetch("https://formspree.io/f/mnpqqavb", {
+              method: "POST",
+              body: formData,
+              headers: {
+                Accept: "application/json",
+              },
+            });
 
-              if (response.ok) {
-                toast.success("¡Mensaje enviado con éxito!");
-                form.reset();
+            if (response.ok) {
+              toast.success("¡Mensaje enviado con éxito!");
+              form.reset();
+            } else {
+              const data = await response.json();
+              if (data.errors) {
+                toast.error(data.errors.map((error: any) => error.message).join(", "));
               } else {
-                const data = await response.json();
-                if (data.errors) {
-                  toast.error(data.errors.map((error: any) => error.message).join(", "));
-                } else {
-                  toast.error("Hubo un problema al enviar el formulario.");
-                }
+                toast.error("Hubo un problema al enviar el formulario.");
               }
-            } catch (error) {
-              toast.error("Ocurrió un error inesperado. Inténtalo de nuevo.");
-            } finally {
-              setIsSubmitting(false);
             }
-          });
+          } catch (error) {
+            toast.error("Ocurrió un error inesperado al enviar. Inténtalo de nuevo.");
+          } finally {
+            setIsSubmitting(false);
+          }
         });
       } else {
         toast.error("Error cargando reCAPTCHA. Refresca la página.");
@@ -70,7 +67,7 @@ const ContactForm = ({ innerPage }: Props) => {
 
   return (
     <>
-      <Script src="https://www.google.com/recaptcha/api.js?render=6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcYOPpbPy" strategy="lazyOnload" />
+      <Script src="https://www.google.com/recaptcha/enterprise.js?render=6LdVdJwtAAAAAFeZXWAOb7VbQaglKh5bcY0PpbPy" strategy="lazyOnload" />
       <form
         onSubmit={handleSubmit}
         className={`rv-2-contact__form ${
