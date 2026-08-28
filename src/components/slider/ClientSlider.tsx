@@ -39,7 +39,7 @@ const ClientSlider = () => {
         >
           {clientData.map((img, index) => (
             <SwiperSlide key={index}>
-              <img src={img} alt="client Logo" />
+              <img src={img} alt="client Logo" style={{ transform: 'scale(0.65)' }} />
             </SwiperSlide>
           ))}
         </Swiper>

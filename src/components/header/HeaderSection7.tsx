@@ -74,7 +74,7 @@ const HeaderSection7 = () => {
                
                 <h6 className="rv-8-header-contact-info numb">
                   <i className="fa-solid fa-sharp fa-phone"></i>{" "}
-                  <a href="tel:+54 9 11 2713-5053">(+54) 9 11 2713-5053</a>
+                  <a href="tel:+5491135779682">(+54) 9 11 3577-9682</a>
                 </h6>
               </div>
             </div>

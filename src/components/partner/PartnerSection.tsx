@@ -45,7 +45,7 @@ const PartnerSection = () => {
         >
           {partnerData.map((partner, index) => (
             <SwiperSlide key={index}>
-              <img src={partner} alt="Partner Logo" />
+              <img src={partner} alt="Partner Logo" style={{ transform: 'scale(0.65)' }} />
             </SwiperSlide>
           ))}
         </Swiper>

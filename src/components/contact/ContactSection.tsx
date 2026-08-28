@@ -22,8 +22,8 @@ const ContactSection = ({ innerPage }: Props) => {
               </span>
               <div className="rv-5-about__call-txt">
                 <h6 style={{ fontSize: '14px', marginBottom: '2px', color: 'var(--rv-color-text)' }}>Teléfono</h6>
-                <a href="tel:+5491127135053" className="">
-                  (+54) 9 11 2713-5053
+                <a href="tel:+5491135779682" className="">
+                  (+54) 9 11 3577-9682
                 </a>
               </div>
             </div>
