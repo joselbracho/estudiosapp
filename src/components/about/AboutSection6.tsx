@@ -45,16 +45,6 @@ const AboutSection6 = () => {
                 <a href="#contact" className="rv-6-def-btn rv-14-about__btn">
                   Conocenos <i className="fa-solid fa-arrow-up-right"></i>
                 </a>
-                <div className="rv-5-about__call rv-6-about__call rv-14-about__call">
-                  <span className="rv-5-about__call-icon">
-                    <i className="fa-solid fa-phone"></i>
-                  </span>
-                  <div className="rv-5-about__call-txt">
-                    <a href="tel:+5491135779682" className="">
-                      (+54) 9 11 3577-9682
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </DivAnimateXAxis>
