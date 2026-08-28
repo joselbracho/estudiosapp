@@ -56,10 +56,10 @@ const BannerSection8 = () => {
                 }}
                 modules={[Autoplay]}
               >
-                {partnerData2.map((img, index) => (
+                {partnerData2.map((partner, index) => (
                   <SwiperSlide key={index}>
-                    <a href="#">
-                      <img src={img} alt="Partner Logo" />
+                    <a href={partner.link} target="_blank" rel="noopener noreferrer">
+                      <img src={partner.img} alt="Partner Logo" />
                     </a>
                   </SwiperSlide>
                 ))}

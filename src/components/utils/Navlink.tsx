@@ -7,6 +7,7 @@ interface NavLinkProps {
   children: React.ReactNode;
   className?: string;
   activeClassName?: string; // Use a custom active class name
+  onClick?: () => void;
 }
 
 const NavLink: React.FC<NavLinkProps> = ({
@@ -14,6 +15,7 @@ const NavLink: React.FC<NavLinkProps> = ({
   children,
   className,
   activeClassName = "active", // Provide a default active class name
+  onClick,
 }) => {
   const router = useRouter();
   const pathname = usePathname();
@@ -28,6 +30,9 @@ const NavLink: React.FC<NavLinkProps> = ({
 
   // Implement onClick handler for accessibility and styling consistency
   const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
     // Optional: Add accessibility logic like screen reader announcements
     if (!href.startsWith("#")) {
       // Avoid navigating for local anchors

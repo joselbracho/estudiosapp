@@ -1,15 +1,15 @@
 import React from "react";
-import HeaderSection from "../header/HeaderSection";
-import FooterSection4 from "../footer/FooterSection4";
+import HeaderSection7 from "../header/HeaderSection7";
+import FooterSection8 from "../footer/FooterSection8";
 type Props = {
   children: React.ReactNode;
 };
 const InnerLayout = ({ children }: Props) => {
   return (
     <>
-      <HeaderSection innerHeader />
+      <HeaderSection7 />
       {children}
-      <FooterSection4 />
+      <FooterSection8 />
     </>
   );
 };

@@ -115,7 +115,7 @@ const HeaderSection7 = () => {
                   </button>
                 </div>
 
-                <NavSection style="rv-1-header__nav rv-7-header__nav rv-14-header__nav" />
+                <NavSection onClick={closeSidebar} style="rv-1-header__nav rv-7-header__nav rv-14-header__nav" />
               </div>
             </div>
 

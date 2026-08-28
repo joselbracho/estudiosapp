@@ -2,8 +2,8 @@ import ErrorMain from "@/components/main/ErrorMain";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Revel 404 Page",
-  description: "Professional Developers",
+  title: "eStudiosApp 404",
+  description: "Página no encontrada",
 };
 export default function NotFound() {
   return <ErrorMain />;

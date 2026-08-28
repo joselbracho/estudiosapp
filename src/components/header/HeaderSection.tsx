@@ -107,6 +107,7 @@ const HeaderSection = ({ innerHeader }: Props) => {
               </div>
 
               <NavSection
+                onClick={closeSidebar}
                 style={
                   innerHeader
                     ? "rv-1-header__nav rv-inner-header__nav"

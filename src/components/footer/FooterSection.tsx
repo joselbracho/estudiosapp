@@ -29,7 +29,7 @@ const FooterSection = () => {
                   <a href="#">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/estudiosapp/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                   <a href="#">

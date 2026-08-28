@@ -4,6 +4,7 @@ import Navlink from "../utils/Navlink";
 type Props = {
   style: string;
   logo?: string;
+  onClick?: () => void;
 };
 type DropdownState = {
   home: boolean;
@@ -11,7 +12,7 @@ type DropdownState = {
   service: boolean;
   blog: boolean;
 };
-const NavSection = ({ style, logo }: Props) => {
+const NavSection = ({ style, logo, onClick }: Props) => {
   const [dropdown, setDropdown] = useState<DropdownState>({
     home: false,
     pages: false,
@@ -32,27 +33,27 @@ const NavSection = ({ style, logo }: Props) => {
     <div className={style}>
       <ul className="justify-content-center">
         <li>
-          <Navlink href="/#home">Inicio</Navlink>
+          <Navlink href="/#home" onClick={onClick}>Inicio</Navlink>
         </li>
         
         <li>
-          <Navlink href="/#services">Servicios</Navlink>
+          <Navlink href="/#services" onClick={onClick}>Servicios</Navlink>
         </li>
 
         <li>
-          <Navlink href="/#about">Nosotros</Navlink>
+          <Navlink href="/#about" onClick={onClick}>Nosotros</Navlink>
         </li>
         
         {logo && (
           <li className="d-none d-lg-block">
-            <Navlink href="/" className="rv-5-logo">
+            <Navlink href="/" className="rv-5-logo" onClick={onClick}>
               <img src={logo} alt="logo" />
             </Navlink>
           </li>
         )}
 
         <li>
-          <Navlink href="/#contact">Contacto</Navlink>
+          <Navlink href="/#contact" onClick={onClick}>Contacto</Navlink>
         </li>
       </ul>
     </div>

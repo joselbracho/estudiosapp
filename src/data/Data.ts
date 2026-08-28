@@ -1586,12 +1586,12 @@ const bannerData4 = [
 ];
 
 const partnerData2 = [
-  "assets/img/technologies/aws-svgrepo-com.svg",
-  "assets/img/technologies/gcp-svgrepo-com.svg",
-  "assets/img/technologies/claude-color.png",
-  "assets/img/technologies/geminicli-color.png",
-  "assets/img/technologies/openai-svgrepo-com.svg",
-  "assets/img/technologies/kubernetes-svgrepo-com.svg",
+  { img: "assets/img/technologies/aws-svgrepo-com.svg", link: "https://aws.amazon.com/" },
+  { img: "assets/img/technologies/gcp-svgrepo-com.svg", link: "https://cloud.google.com/" },
+  { img: "assets/img/technologies/claude-color.png", link: "https://www.anthropic.com/claude" },
+  { img: "assets/img/technologies/geminicli-color.png", link: "https://gemini.google.com/" },
+  { img: "assets/img/technologies/openai-svgrepo-com.svg", link: "https://openai.com/" },
+  { img: "assets/img/technologies/kubernetes-svgrepo-com.svg", link: "https://kubernetes.io/" },
 ];
 
 const caseStudyData = [

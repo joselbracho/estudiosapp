@@ -23,6 +23,9 @@ const FooterSection8 = () => {
                   <a href="https://www.facebook.com/estudiosapp" target="_blank" rel="noreferrer">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
+                  <a href="https://www.linkedin.com/company/estudiosapp/" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-linkedin-in"></i>
+                  </a>
                   <a href="https://www.instagram.com/estudiosapp" target="_blank" rel="noreferrer">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
@@ -35,19 +38,19 @@ const FooterSection8 = () => {
                 <h5 className="rv-1-footer-widget__title">Servicios</h5>
                 <ul className="rv-6-footer-widget__links">
                   <li>
-                    <a href="#">Cloud e infraestructura</a>
+                    <a href="/#services">Cloud e infraestructura</a>
                   </li>
                   <li>
-                    <a href="#">Desarrollo a medida</a>
+                    <a href="/#services">Desarrollo a medida</a>
                   </li>
                   <li>
-                    <a href="#">Inteligencia artificial</a>
+                    <a href="/#services">Inteligencia artificial</a>
                   </li>
                   <li>
-                    <a href="#">Automatización e integración</a>
+                    <a href="/#services">Automatización e integración</a>
                   </li>
                   <li>
-                    <a href="#">Soporte y mantenimiento</a>
+                    <a href="/#services">Soporte y mantenimiento</a>
                   </li>
                 </ul>
               </div>
@@ -114,11 +117,8 @@ const FooterSection8 = () => {
                 &copy; 2026 eStudiosapp All Rights Reserved by site
               </p>
             </div>
-            <div className="col-md-5">
-              <div className="rv-2-footer__nav rv-14-footer-bottom__nav">
-                {/* <a href="#">Política de Privacidad</a>
-                <a href="#">Términos del Servicio</a> */}
-              </div>
+            <div className="col-md-5 text-end" style={{ paddingRight: "100px" }}>
+                <a href="/sitemap.xml" target="_blank" className="rv-1-copyright">Sitemap</a>
             </div>
           </div>
         </div>

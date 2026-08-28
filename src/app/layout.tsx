@@ -19,8 +19,8 @@ import { Metadata } from "next";
 import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
-  title: "eStudiosApp — Soluciones cloud y software a medida",
-  description: "Desarrollo de software, infraestructura cloud e inteligencia artificial aplicada. Trabajamos con empresas e inmobiliarias en Argentina y el exterior.",
+  title: "eStudiosApp — Soluciones web, Cloud e Inteligencia Artificial",
+  description: "Agencia digital especializada en marketing, desarrollo de software a medida, infraestructura cloud, chatbots e inteligencia artificial aplicada.",
   icons: {
     icon: "/favicon.ico",
   },
