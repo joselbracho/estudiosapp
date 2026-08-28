@@ -697,6 +697,10 @@
     &__call {
         gap: 12px;
 
+        @include md {
+            width: 350px;
+        }
+
         .rv-5-about__call-icon {
             width: 52px;
             height: 52px;
